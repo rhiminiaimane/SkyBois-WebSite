@@ -20,7 +20,6 @@
   align-items: center;
   padding: 1.5rem 2rem;
   background-color: var(--bg-color);
-  box-shadow: var(--shadow);
   position: fixed;
   top: 0;
   left: 0;
