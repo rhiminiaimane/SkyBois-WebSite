@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/ProductsSection.css';
+import { Link } from "react-router-dom";
+import ProductCard from './ProductCard';
+
 
 const ProductsSection = () => {
   // Données des produits (à remplacer par vos propres produits)
@@ -33,7 +34,36 @@ const ProductsSection = () => {
       price: "€18.75",
       category: "Bois massif",
       image: "src/assets/pin.jpg"
+    },
+    {
+      id: 5,
+      name: "Scie Circulaire",
+      price: "€99.99",
+      category: "Outils",
+      image: "src/assets/scie.jpeg"
+    },
+    {
+      id: 6,
+      name: "Ponceuse Électrique",
+      price: "€59.99",
+      category: "Outils",
+      image: "src/assets/ponceuse_electrique.png"
+    },
+    {
+      id: 7,
+      name: "Teinture Bois Naturelle",
+      price: "€15.00",
+      category: "Finitions",
+      image: "src/assets/teinture_bois_naturelle.jpeg"
+    },
+    {
+      id: 8,
+      name: "Équerre de Menuisier",
+      price: "€5.50",
+      category: "Outils de mesure",
+      image: "src/assets/equerre_menuisier.jpg"
     }
+
   ];
 
   return (
@@ -45,36 +75,17 @@ const ProductsSection = () => {
       
       <div className="products-grid">
         {products.map((product) => (
-          <div key={product.id} className="product-card">
-            {product.promo && <span className="product-badge">{product.promo}</span>}
-            <div className="product-image-container">
-              <img 
-                src={product.image} 
-                alt={product.name} 
-                className="product-image"
-                onError={(e) => {
-                  e.target.src = '/chemin/image-par-defaut.jpg'; // Fallback image
-                }}
-              />
-            </div>
-            <div className="product-info">
-              <span className="product-category">{product.category}</span>
-              <h3 className="product-name">{product.name}</h3>
-              <p className="product-price">{product.price}</p>
-              {/*
-                <button className="product-button">
-                Voir le produit
-              </button>
-              */}
-            </div>
-          </div>
-        ))}
+          <ProductCard key={product.id} product={product} />
+        )
+        )}
       </div>
 
       <div className="section-footer">
-        <button className="view-all-button">
-          Voir tout le catalogue →
-        </button>
+        <Link to = '/catalogue'>
+          <button className="view-all-button">
+            Voir tout le catalogue →
+          </button>
+        </Link>
       </div>
     </section>
   );

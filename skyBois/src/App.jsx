@@ -1,19 +1,20 @@
-import './css/App.css'
 import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
-import ProductsSection from './components/ProductsSection'
-import ContactSection from './components/ContactSection'
+import Accueil from './pages/accueil'
+import Catalogue from './pages/catalogue'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
-
   return (
-    <>
-        <Navbar />
-        <HeroSection />
-        <ProductsSection />
-        <ContactSection />
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/catalogue" element={<Catalogue />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;

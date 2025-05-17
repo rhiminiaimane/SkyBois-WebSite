@@ -38,8 +38,16 @@
 .navbar-logo {
   font-weight: 700;
   font-size: 1.8rem;
-  color: var(--primary-color);
+  color: #316A63;
   letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-image {
+  height: 30px;
+  width: auto;
 }
 
 .navbar-links {

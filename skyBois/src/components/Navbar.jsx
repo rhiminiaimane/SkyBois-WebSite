@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Navbar.css';
+import logo from '../assets/logo.png';
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,11 +30,14 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="navbar-logo">LOGO</div>
+      <div className="navbar-logo">
+        <img src={logo} alt="Sky Bois Logo" className="logo-image" />
+        <span>SKY BOIS</span>
+      </div>
       
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
-        <a onClick={() => scrollToSection('#home')}>HOME</a>
-        <a onClick={() => scrollToSection('#products')}>PRODUCTS</a>
+        <Link to = ''><a onClick={() => scrollToSection('.hero')}>HOME</a></Link>
+        <Link to = '/catalogue'><a onClick={() => scrollToSection('.products-section')}>CATALOGUE</a></Link>
         <a onClick={() => scrollToSection('.contact-section')}>CONTACT</a>
       </div>
 
