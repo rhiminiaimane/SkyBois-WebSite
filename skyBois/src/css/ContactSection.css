@@ -2,6 +2,11 @@
 .contact-section {
   padding: 6rem 0rem;
   font-family: 'Montserrat', sans-serif;
+  border: 1px solid #11cf5d;
+  margin: 6rem 2rem;
+  border-radius: 33px;
+  background-color: white;
+  background-color: #80808017;
 }
 
 .section-header {
@@ -19,16 +24,18 @@
 }
 
 .section-subtitle {
-  color: #7f8c8d;
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
 }
+.section-subtitle p{
+  color: black;
+}
 
 .contact-content {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -134,11 +141,11 @@
 .whatsapp-btn {
   background-color: #25D366;
   color: white;
-  border: 1px solid #2c3e50;
+  /*border: 1px solid #2c3e50;*/
 }
 
 .whatsapp-btn:hover {
-  background-color: #128C7E;
+  background-color: #316A63;
   transform: translateY(-2px);
 }
 
@@ -227,7 +234,8 @@
 
 @media (max-width: 768px) {
   .contact-section {
-    padding: 4rem 1.5rem;
+    padding: 3rem 0rem;
+    margin: 3rem 1rem;
   }
   
   .action-buttons {
@@ -245,6 +253,7 @@
   }
   
   .location-card, .whatsapp-card {
-    padding: 1.5rem;
+    /*padding: 1.5rem;*/
+    margin: 10px;
   }
 }

@@ -37,7 +37,7 @@ const Navbar = () => {
       
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <Link to = ''><a onClick={() => scrollToSection('.hero')}>HOME</a></Link>
-        <Link to = '/catalogue'><a onClick={() => scrollToSection('.products-section')}>CATALOGUE</a></Link>
+        <Link to = '/catalogue'><a onClick={() => scrollToSection('#')}>CATALOGUE</a></Link>
         <a onClick={() => scrollToSection('.contact-section')}>CONTACT</a>
       </div>
 

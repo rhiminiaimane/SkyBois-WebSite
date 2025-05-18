@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/HeroSection.css';
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
         <p className="hero-description">
           Découvrez notre sélection de bois premium, vis, colles et plus pour tous vos travaux
         </p>
-        <button className="hero-button">CATALOGUE</button>
+        <Link to = '/catalogue'><button className="hero-button">CATALOGUE</button></Link>
       </div>
     </section>
   );
