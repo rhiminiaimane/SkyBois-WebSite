@@ -16,7 +16,7 @@ function Catalogue() {
       name: "Planche de Chêne",
       price: "€24.99",
       category: "Bois massif",
-      image: "src/assets/planche_chene.jpg",
+      image: "assets/planche_chene.jpg",
       promo: "-10%"
     },
     {
@@ -24,14 +24,14 @@ function Catalogue() {
       name: "Lot de Vis Bois",
       price: "€12.50",
       category: "Quincaillerie",
-      image: "src/assets/vis.jpg"
+      image: "assets/vis.jpg"
     },
     {
       id: 3,
       name: "Colle Professionnelle",
       price: "€8.90",
       category: "Adhésifs",
-      image: "src/assets/colle.png",
+      image: "assets/colle.png",
       promo: "Bestseller"
     },
     {
@@ -39,42 +39,42 @@ function Catalogue() {
       name: "Panneau de Pin",
       price: "€18.75",
       category: "Bois massif",
-      image: "src/assets/pin.jpg"
+      image: "assets/pin.jpg"
     },
     {
       id: 5,
       name: "Scie Circulaire",
       price: "€99.99",
       category: "Outils",
-      image: "src/assets/scie.jpeg"
+      image: "assets/scie.jpeg"
     },
     {
       id: 6,
       name: "Ponceuse Électrique",
       price: "€59.99",
       category: "Outils",
-      image: "src/assets/ponceuse_electrique.png"
+      image: "assets/ponceuse_electrique.png"
     },
     {
       id: 7,
       name: "Teinture Bois Naturelle",
       price: "€15.00",
       category: "Finitions",
-      image: "src/assets/teinture_bois_naturelle.jpeg"
+      image: "assets/teinture_bois_naturelle.jpeg"
     },
     {
       id: 8,
       name: "Équerre de Menuisier",
       price: "€5.50",
       category: "Outils de mesure",
-      image: "src/assets/equerre_menuisier.jpg"
+      image: "assets/equerre_menuisier.jpg"
     },
   {
     id: 9,
     name: "Planche de Noyer",
     price: "€29.99",
     category: "Bois massif",
-    image: "src/assets/planche_noyer.jpg",
+    image: "assets/planche_noyer.jpg",
     promo: "-15%"
   },
   {
@@ -82,14 +82,14 @@ function Catalogue() {
     name: "Clous Acier 50mm",
     price: "€6.99",
     category: "Quincaillerie",
-    image: "src/assets/clous_acier.jpg"
+    image: "assets/clous_acier.jpg"
   },
   {
     id: 11,
     name: "Vernis Bois Brillant",
     price: "€17.50",
     category: "Finitions",
-    image: "src/assets/vernis_bois.jpg",
+    image: "assets/vernis_bois.jpg",
     promo: "Nouveau"
   },
   {
@@ -97,28 +97,28 @@ function Catalogue() {
     name: "Perceuse Sans Fil",
     price: "€89.90",
     category: "Outils",
-    image: "src/assets/perceuse_sans_fil.jpg"
+    image: "assets/perceuse_sans_fil.jpg"
   },
   {
     id: 13,
     name: "Ruban Adhésif Double Face",
     price: "€4.99",
     category: "Adhésifs",
-    image: "src/assets/ruban_double_face.jpg"
+    image: "assets/ruban_double_face.jpg"
   },
   {
     id: 14,
     name: "Panneau MDF 10mm",
     price: "€14.25",
     category: "Bois manufacturé",
-    image: "src/assets/panneau_mdf.jpg"
+    image: "assets/panneau_mdf.jpg"
   },
   {
     id: 15,
     name: "Niveau à Bulle 60cm",
     price: "€12.99",
     category: "Outils de mesure",
-    image: "src/assets/niveau_bulle.jpg",
+    image: "assets/niveau_bulle.jpg",
     promo: "Bestseller"
   },
   {
@@ -126,35 +126,35 @@ function Catalogue() {
     name: "Lasure Bois Extérieure",
     price: "€22.00",
     category: "Finitions",
-    image: "src/assets/lasure_bois.jpg"
+    image: "assets/lasure_bois.jpg"
   },
   {
     id: 17,
     name: "Marteau de Charpentier",
     price: "€19.99",
     category: "Outils",
-    image: "src/assets/marteau_charpentier.jpg"
+    image: "assets/marteau_charpentier.jpg"
   },
   {
     id: 18,
     name: "Chevilles Universelles",
     price: "€7.90",
     category: "Quincaillerie",
-    image: "src/assets/chevilles_universelles.jpg"
+    image: "assets/chevilles_universelles.jpg"
   },
   {
     id: 19,
     name: "Mètre Ruban 5m",
     price: "€8.50",
     category: "Outils de mesure",
-    image: "src/assets/metre_ruban.jpg"
+    image: "assets/metre_ruban.jpg"
   },
   {
     id: 20,
     name: "Plinthe en Chêne",
     price: "€13.75",
     category: "Bois massif",
-    image: "src/assets/plinthe_chene.jpg",
+    image: "assets/plinthe_chene.jpg",
     promo: "-20%"
   }
 ]

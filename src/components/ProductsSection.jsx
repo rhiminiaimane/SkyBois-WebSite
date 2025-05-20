@@ -10,7 +10,7 @@ const ProductsSection = () => {
       name: "Planche de Chêne",
       price: "€24.99",
       category: "Bois massif",
-      image: "src/assets/planche_chene.jpg",
+      image: "assets/planche_chene.jpg",
       promo: "-10%"
     },
     {
@@ -18,14 +18,14 @@ const ProductsSection = () => {
       name: "Lot de Vis Bois",
       price: "€12.50",
       category: "Quincaillerie",
-      image: "src/assets/vis.jpg"
+      image: "assets/vis.jpg"
     },
     {
       id: 3,
       name: "Colle Professionnelle",
       price: "€8.90",
       category: "Adhésifs",
-      image: "src/assets/colle.png",
+      image: "assets/colle.png",
       promo: "Bestseller"
     },
     {
@@ -33,35 +33,35 @@ const ProductsSection = () => {
       name: "Panneau de Pin",
       price: "€18.75",
       category: "Bois massif",
-      image: "src/assets/pin.jpg"
+      image: "assets/pin.jpg"
     },
     {
       id: 5,
       name: "Scie Circulaire",
       price: "€99.99",
       category: "Outils",
-      image: "src/assets/scie.jpeg"
+      image: "assets/scie.jpeg"
     },
     {
       id: 6,
       name: "Ponceuse Électrique",
       price: "€59.99",
       category: "Outils",
-      image: "src/assets/ponceuse_electrique.png"
+      image: "assets/ponceuse_electrique.png"
     },
     {
       id: 7,
       name: "Teinture Bois Naturelle",
       price: "€15.00",
       category: "Finitions",
-      image: "src/assets/teinture_bois_naturelle.jpeg"
+      image: "assets/teinture_bois_naturelle.jpeg"
     },
     {
       id: 8,
       name: "Équerre de Menuisier",
       price: "€5.50",
       category: "Outils de mesure",
-      image: "src/assets/equerre_menuisier.jpg"
+      image: "assets/equerre_menuisier.jpg"
     }
 
   ];
