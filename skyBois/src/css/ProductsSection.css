@@ -37,6 +37,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   border: 1px solid #11cf5d;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .product-card:hover {
