@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProductCard from "../components/ProductCard";
-import "../css/catalogue.css";
+import "../css/Catalogue.css";
 
 function Catalogue() {
   const [searchValue, setSearchValue] = useState("");
